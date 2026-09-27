@@ -1,0 +1,100 @@
+"ui.background" = { bg = "bg" }
+"ui.text" = { fg = "text" }
+
+"ui.cursor" = { fg = "bg", bg = "moss" }
+"ui.cursor.primary" = { fg = "bg", bg = "moss" }
+"ui.cursor.match" = { fg = "text", bg = "surface2" }
+
+"ui.selection" = { bg = "selection" }
+"ui.cursorline.primary" = { bg = "surface" }
+
+"ui.linenr" = { fg = "dim" }
+"ui.linenr.selected" = { fg = "text" }
+
+"ui.statusline" = { fg = "text", bg = "surface" }
+"ui.statusline.inactive" = { fg = "dim", bg = "bg" }
+
+"ui.popup" = { fg = "text", bg = "surface" }
+"ui.window" = { fg = "border" }
+"ui.help" = { fg = "text", bg = "surface" }
+
+"ui.menu" = { fg = "text", bg = "surface" }
+"ui.menu.selected" = { fg = "text", bg = "surface2" }
+
+"ui.virtual.whitespace" = { fg = "dim" }
+"ui.virtual.indent-guide" = { fg = "border" }
+"ui.virtual.inlay-hint" = { fg = "dim" }
+
+"ui.debug" = { fg = "dusty_red" }
+"ui.highlight" = { bg = "surface2" }
+
+"comment" = { fg = "comment", modifiers = ["italic"] }
+
+"constant" = "fog_blue"
+"constant.numeric" = "fog_blue"
+"constant.character" = "fog_blue"
+"constant.character.escape" = "muted_moss"
+
+"string" = "wet_wood"
+
+"variable" = "text"
+"variable.parameter" = "soft_blue"
+"variable.builtin" = "muted_moss"
+
+"function" = "soft_moss"
+"function.builtin" = "soft_moss"
+"function.macro" = "muted_moss"
+
+"keyword" = "moss"
+"keyword.control" = "moss"
+"keyword.function" = "moss"
+"keyword.return" = "moss"
+
+"type" = "fog_blue"
+"type.builtin" = "fog_blue"
+
+"constructor" = "soft_blue"
+
+"operator" = "muted_text"
+"punctuation" = "muted_text"
+"punctuation.delimiter" = "muted_text"
+
+"label" = "wet_wood"
+"namespace" = "fog_blue"
+
+"attribute" = "wet_wood"
+
+"tag" = "fog_blue"
+"tag.error" = "dusty_red"
+
+"special" = "soft_moss"
+
+"error" = "dusty_red"
+"warning" = "warning"
+
+[palette]
+
+bg = "#111514"
+surface = "#191D1B"
+surface2 = "#232825"
+
+border = "#303733"
+selection = "#303733"
+
+text = "#C2C7C3"
+muted_text = "#747B76"
+dim = "#5D6560"
+comment = "#646B67"
+
+moss = "#697568"
+soft_moss = "#7D897B"
+muted_moss = "#788276"
+
+fog_blue = "#687276"
+soft_blue = "#7A8589"
+
+wet_wood = "#8A8170"
+
+warning = "#8A8170"
+dusty_red = "#896D6D"
+
